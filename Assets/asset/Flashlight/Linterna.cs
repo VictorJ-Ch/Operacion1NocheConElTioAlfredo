@@ -14,6 +14,11 @@ public class Linterna : MonoBehaviour
 
     private void Update()
     {
+        Prende_Apaga();
+    }
+
+    void Prende_Apaga()
+    {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             if (Luz.enabled == false)
